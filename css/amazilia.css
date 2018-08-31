@@ -1,0 +1,192 @@
+
+
+header{
+	background-color: #252525;
+	padding-right: 50px;
+	
+	
+
+}
+
+#navbar {
+	background-color: #252525;
+	align-content: center;
+	
+}
+
+#navbar a {
+	color: #FFF;
+}
+
+#divImg{
+	background: #000000;
+}
+#sloganBarra{
+	margin-left: 500px;
+	color: #FFFFFF;
+	font-family:"Gill Sans";
+	font-size: 12px
+	
+	
+}
+ul, ol {
+	list-style:none;
+}
+
+#sec-frase{
+	background-image: url(../img/fondo-frase-01.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: #fff;
+	text-align: center;
+	padding: 100px 0;
+	height: 600px;
+}
+.nav > li {
+	float:left;
+}
+
+
+
+.nav li a {
+	background-color:#000;
+	color:#fff;
+	text-decoration:none;
+	padding:10px 12px;
+	display:block;
+}
+
+.nav li a:hover {
+	background-color:#434343;
+}
+
+.nav li ul {
+	display:none;
+	position:absolute;
+	min-width:140px;
+}
+
+.nav li:hover > ul {
+	display:block;
+}
+
+.nav li ul li {
+	position:relative;
+}
+
+.nav li ul li ul {
+	right:-140px;
+	top:0px;
+}
+
+#sec-mision h1{
+	color: #A0BF38;
+    font-family:"Lucinda Sans";
+	font-size: 30px;
+    padding-top: 100px;
+	
+}
+
+#sec-mision h2{
+	font-family:"Lucinda Sans";
+	font-size: 17px;
+	padding-top: 30px;
+}
+
+#sec-mision h3{
+	padding-top: 100px
+}
+
+#sec-frase h1{
+	text-align: center;
+	font-family: "Lucinda sans";
+	padding-top: 30px;
+	color: #000000;
+	
+}
+
+#sec-frase h2{
+	text-align: center;
+	margin-top: 20px;
+	font-family:"Lucinda sans";
+	color:#EA850C
+		
+}
+
+.btn-naranja{
+	background-color:#EA850C;
+	color:#fff;
+	border-radius: 0;
+	border:0;
+	text-transform: uppercase;
+	padding: 10px 30px;
+	font-weight: 600px;
+	margin-top: 40px;
+	
+}
+.btn-naranja:hover{
+	background-color:#EA850C;
+}
+
+
+
+#sec-merch h6{
+	text-align: center;
+}
+
+#sec-merch p{
+	text-align: center;
+}
+
+footer{
+	background-color: #252525;
+	color: #777;
+	padding: 45px 0;
+	text-align: center;
+}
+
+footer h3 {
+	color: #FFF;
+	font-weight: 700;
+	font-size: 26px;
+	
+}
+
+footer h3 span {
+	color: #a0bf38;
+
+}
+
+.redes a {
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	border: 2px solid #FFF;
+	display: block;
+	border-radius: 100%;
+	color: #FFF;
+	text-decoration: none;
+	
+}
+
+.redes {
+	margin: 45px 0; 
+	
+}
+.redes li{
+	display: inline-block;
+	transition: all ease 0.3s;
+}
+
+
+.redes a:hover {
+	background-color: #FFF;
+	color: #252525;
+	transition: all ease 0.3s;
+}
+
+footer p a:hover{
+	
+	color: #f54f15;
+} 
