@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo:300,400,600,800');
+
+	
+body{
+	font-family:'Arvo', serif;
+	font-size: 16px;
+	color: #000000;
+
+}
+
 
 
 header{
@@ -8,15 +18,14 @@ header{
 
 }
 
+
 #navbar {
 	background-color: #252525;
 	align-content: center;
 	
 }
 
-#navbar a {
-	color: #FFF;
-}
+
 
 #divImg{
 	background: #000000;
@@ -49,36 +58,6 @@ ul, ol {
 
 
 
-.nav li a {
-	background-color:#000;
-	color:#fff;
-	text-decoration:none;
-	padding:10px 12px;
-	display:block;
-}
-
-.nav li a:hover {
-	background-color:#434343;
-}
-
-.nav li ul {
-	display:none;
-	position:absolute;
-	min-width:140px;
-}
-
-.nav li:hover > ul {
-	display:block;
-}
-
-.nav li ul li {
-	position:relative;
-}
-
-.nav li ul li ul {
-	right:-140px;
-	top:0px;
-}
 
 #sec-mision h1{
 	color: #A0BF38;
@@ -114,20 +93,7 @@ ul, ol {
 		
 }
 
-.btn-naranja{
-	background-color:#EA850C;
-	color:#fff;
-	border-radius: 0;
-	border:0;
-	text-transform: uppercase;
-	padding: 10px 30px;
-	font-weight: 600px;
-	margin-top: 40px;
-	
-}
-.btn-naranja:hover{
-	background-color:#EA850C;
-}
+
 
 
 
@@ -139,6 +105,66 @@ ul, ol {
 	text-align: center;
 }
 
+
+#sec-content h1{
+	text-align: center;
+	padding-top: 
+}
+
+#sec-content h4{
+	text-align: center;
+	color:#547D1A
+}
+
+#sec-departamentos{
+	align-content: center;
+}
+
+#sec-mapa{
+	width: 100%;
+	min-height: 300px;
+}
+#sec-quienes {
+	background-image: url(../img/lobo.jpg);
+    background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 500px;
+	}
+
+
+#sec-quienes h1{
+	text-align: center;
+	font-family: 'Gill Sans';
+	padding-top: 200px;
+	color: #000000;
+  font-size: 100px;
+	
+}
+
+#sec-quienes h2{
+	text-align: center;
+	font-family: "Gill Sans";
+	padding-bottom: 100px;
+	font-size: 50px;
+
+}
+#sec-hacemos h1{
+	text-align: left;
+	font-family: "Gill Sans";
+	padding-top: 10px;
+	font-size: 40px;
+}
+#sec-hacemos h2{
+	text-align: left;
+	font-family:"Hoefler Text";
+	padding-top: 10px;
+	font-size: 20px;
+}
+#sec-hacemos{
+	padding-top: 10px;
+}
 footer{
 	background-color: #252525;
 	color: #777;
@@ -152,6 +178,69 @@ footer h3 {
 	font-size: 26px;
 	
 }
+.barra{
+	background-color: #F54F15;
+	width: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 1px;
+	padding-bottom: 10px;
+}
+.titulo{
+	font-size: 50px;
+	font-weight: 600;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.btn-naranja{
+	background-color: #F54F15;
+	color: #fff;
+	border-radius: 0;
+	border: 0;
+	text-transform: uppercase;
+	padding: 15px 30px;
+	font-weight: 600;
+	margin-top: 40px;
+	
+}
+.btn-naranja:hover{
+	background-color: #252525;
+	color: #FFFFFF;
+}
+#sec-obras {
+    background-image: url(../img/rainforest-forest-1.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+	
+
+
+#sec-obras .barra{
+	background-color: #c37533;
+	margin-top: 10px;
+}
+
+#sec-obras .titulo{
+	color: #fff;
+	text-align: center;
+}
+
+.cuadro-blanco{
+	background-color: #FFFFFF;
+	padding: 30px 20px;
+	text-align: center;
+}
+
+.cuadro-blanco h3{
+	color: #FFFFFF;
+	font-size: 24px;
+	font-weight: 600;
+	margin-top: 25px;
+}
+
 
 footer h3 span {
 	color: #a0bf38;
@@ -190,3 +279,9 @@ footer p a:hover{
 	
 	color: #f54f15;
 } 
+
+
+#map{
+	width: 100%;
+	min-height: 300px;
+}
