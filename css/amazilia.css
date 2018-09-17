@@ -281,8 +281,31 @@ footer p a:hover{
 	color: #f54f15;
 } 
 
+#sec-adopt {
+background-image:url(../img/backadpot.png);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+background-attachment: fixed;
+margin-bottom: 100px;
+	
+}
 
+#sec-adopt h1{
+    font-size: 60px;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+#sec-adopcion{
+	background-image: url(../img/peacock.jpg)
+}
 #map{
 	width: 100%;
 	min-height: 300px;
 }
+
+.ocultar {
+	display: none;
+}
+	
