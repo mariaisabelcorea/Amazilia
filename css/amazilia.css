@@ -108,7 +108,7 @@ ul, ol {
 
 #sec-content h1{
 	text-align: center;
-	padding-top: 
+	
 }
 
 #sec-content h4{
@@ -307,5 +307,25 @@ margin-bottom: 100px;
 
 .ocultar {
 	display: none;
+}
+
+
+#sec-testimonials {
+	padding-top: 100px;
+	padding-bottom: 100px;
+	
+}
+	#sec-testimonials h4{
+	padding-top: 20px;
+	color: #c37533;
+	
+	
+}
+
+	#sec-testimonials h2{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: #c37533;
+	
 }
 	
