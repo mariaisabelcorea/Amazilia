@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Arvo:300,400,600,800');
+@import url('https://fonts.googleapis.com/css?family=Arvo|Pacifico|Quicksand');
 
 	
 body{
@@ -10,10 +10,9 @@ body{
 
 
 
-header{
+header {
 	background-color: #252525;
 	padding-right: 50px;
-	
 	
 
 }
@@ -56,6 +55,9 @@ ul, ol {
 	float:left;
 }
 
+#sec-mision{
+	padding: 60px;
+}
 
 
 
@@ -63,7 +65,6 @@ ul, ol {
 	color: #A0BF38;
     font-family:"Lucinda Sans";
 	font-size: 30px;
-    padding-top: 100px;
 	
 }
 
@@ -93,7 +94,9 @@ ul, ol {
 		
 }
 
-
+#sec-merch{
+	padding:80px;
+}
 
 
 
@@ -105,6 +108,9 @@ ul, ol {
 	text-align: center;
 }
 
+#sec-content{
+	padding: 60px;
+}
 
 #sec-content h1{
 	text-align: center;
@@ -179,7 +185,7 @@ footer h3 {
 	
 }
 .barra{
-	background-color: #F54F15;
+	background-color: #F5A001;
 	width: 100px;
 	margin-left: auto;
 	margin-right: auto;
@@ -328,4 +334,88 @@ margin-bottom: 100px;
 	color: #c37533;
 	
 }
+
+#sec-testimonials h5{
+	color: #5A6821;
+}
+
+#sec-testimonials p{
+	color:#A0BF38;
+}
+
+sec-testimonials{
+	background-color: #FFFFFF;
 	
+	}
+
+#sec-testimonials {
+	background-image: url( ../img/628.gif);
+	background-repeat:repeat;
+	background-size: cover;
+	color: #FFF;
+	padding-bottom: 100px;
+	padding-top: 100px;
+	text-align: center;
+		
+}
+
+#sec-frasedos{
+	padding: 100px;
+	background-color: #6AEB91;
+	text-align: center;
+	color:#1E3605;
+}
+
+#sec-form{
+	align-content: center;
+}
+
+#sec-info h3{
+	text-align: center;
+	color: #1E3605;
+}
+
+#sec-info{
+	padding: 60px;
+	background-image: url(../img/huesos.jpg);
+	background-repeat:repeat;
+	background-size: cover;
+	color: #FFF;
+	padding-bottom: 100px;
+	padding-top: 100px;
+}
+
+#sec-info hr{
+	margin-bottom: 50px;
+}
+
+#sec-info h1{
+	text-align: center;
+	color:#1E3605;
+}
+#sec-donar{
+	margin-top: 20px;
+	margin-bottom: 50px;
+
+}
+
+#sec-adopcion{
+	background-color: #00A082;
+	background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+background-attachment: fixed;
+margin-bottom: 100px;
+
+}
+
+#sec-adopcion.nombre{
+	font-size:40px;
+
+}
+
+#sec-team{
+	background-color:#7BA619;
+	padding:60px;
+}
+

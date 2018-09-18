@@ -11,7 +11,7 @@
 	<link href="css/bootstrap-custom.css" rel="stylesheet">
 	<link href="css/amazilia.css" rel="stylesheet">
 	<meta name="Description" content="pagina de donacion de Amazilia para obtener informacion para donar.">
-<meta name="Keywords" content="Amazilia, naturaleza, animales, donaciones, adopcion, perros, rescate, informacion, mercancia,">
+<meta name="Keywords" content="Donaciones, dinero, comida, perros, gatos, ayuda, voluntarios, organización">
 <meta property="og.title" content="Página de contenido HTML">
 <meta property="og.url" content="http://www.mipagina.com/pagina.html">
 <meta property="og. description " content="Mi primer sitio en la internet">
@@ -35,13 +35,13 @@
   <div class="collapse navbar-collapse" id="navbar">
 	  
     <ul class="navbar-nav ml-auto">
-      <li class="nav-item active">
+      <li class="nav-item">
         <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="quienessomos.html">Sobre Nosotros</a>
+        <a class="nav-link" href="quienessomos.html">Sobre nosotros</a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item active">
         <a class="nav-link" href="donaciones.html">Donaciones</a>
       </li>
 		
@@ -86,28 +86,28 @@
 			<div class="app-carousel owl-carousel">
 				
 				<div class="single-shot">
-					<img src="img/professional-business-woman-smiling-outdoor-pi.width-800_PcloAoa.jpg" class="img-fluid rounded-circle w-50">
+					<img src="img/professional-business-woman-smiling-outdoor-pi.width-800_PcloAoa.jpg" class="img-fluid rounded-circle w-50 d-block mx-auto">
 					
 					<h4>María Pineda</h4>
 					<h5>Donante</h5>
-					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+					<p>Me apasiona ayudar a los animales. Desde pequeña siempre he querido pertenecer a una organización como Amazilia que hace tanto por cada animalito. Estos 5 años han sido los mejores.</p>
 					
 				</div>
 				
 				<div class="single-shot">
-					<img src="img/color-de-tinte-para-personas-con-ojos-verdes-tendencias-lunademiel.jpg" class="img-fluid rounded-circle w-50">
+					<img src="img/color-de-tinte-para-personas-con-ojos-verdes-tendencias-lunademiel.jpg" class="img-fluid rounded-circle w-50 d-block mx-auto">
 					
 					<h4>Sonia García</h4>
 					<h5>Voluntaria</h5>	
-					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+					<p>!Hola¡ Siempre he amado a los animales y Amazilia me ha dado la oportunidad de ayudarlos a diario. Tengo 6 años de pertencer a esta gran familia.</p>
 					
 				</div>
 				
 				<div class="single-shot">
-					<img src="img/hombre-soltero-feliz.jpg" class="img-fluid rounded-circle w-50">
+					<img src="img/hombre-soltero-feliz.jpg" class="img-fluid rounded-circle w-50 d-block mx-auto">
 					<h4>Diego Enriquez</h4>
 					<h5>Voluntario</h5>
-					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+					<p>Amazilia es una familia. Poder brindale mi ayuda a los animales es lo que me ha motiva a diario en estos ultimos 3 años.</p>
 					
 				</div>
 				
@@ -116,13 +116,21 @@
 		</div>
 	</section>
 
+<section id="sec-frasedos">
+	<div class="container">
+		<h1>"SÉ TÚ EL CAMBIO QUE DESEAS VER EN EL MUNDO"-GANDHI</h1>
+		
+	</div>
+	
+</section>
 	
 	<section id="sec-content" class="espaciado">
 	<div class="container">
 		
-	<hr class="barra">
+	
 	<h1 class="titulo">Donaciones</h1>
-	<h4 class="mb-5">Se el cambio que quieres ver en el mundo,<br>unete a nuestro equipo de colaboradores.</h4>
+	<hr class="barra">
+	<h4 class="mb-5">Únete a nuestro equipo de colaboradores.</h4>
 	</div>
 	
 	
@@ -183,24 +191,35 @@
 		
 	</section>
 	
-	<section id="sec-map">
-		<div class="container">
-			
-			<div class="map_container">
-				<div id="map"></div>
-			</div>
-			
-		</div>		
-	</section>
-	
+	<section id="sec-info">
+	<div class="container">
+	<h1>INFORMACIÓN</h1>
 	 <hr class="barra">
-	<div class="form-group">
+	 
+	<div class="row">
+	
+	<article class="col-sm-6 col-md-6 col-xs-12">
 		<h3><img src="img/gato-comiendo.png" alt="comer" class="img-fluid"></h3>
-				<label class="col-md-2">Donacion:</label>
+			</article>
+			
+			<article class="col-sm-6 col-md-6 col-xs-12">
+		<h3>Todas las donaciones que recibe Amazilia son utilizadas para los beneficios de los animales que rescatamos. Se parte de la familia y ayudanos a seguir cambiando la vida de estas mascotas.</h3>
+			</article>
+			
+			
+			</div>
+			</div>	
+			</section>
+			
+			<section id="sec-donar">
+			<div class="container">
+			
+				<label class="col-md-2"><strong>Donación:</strong></label>
 				<input type="Cantidad" name="donar comida" id="Donacion" class="form-control col-md-10" placeholder="cuanto quieres donar">
 		<button type="Donar" class="btn btn-light btn-naranja">Donar</button>
-			</div>	
-			
+		</div>
+		</section>
+		
 			
 
 	
@@ -261,16 +280,6 @@
 		});
 		
 	</script>
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-125972642-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-125972642-1');
-</script>
-
 	
 	
 		
